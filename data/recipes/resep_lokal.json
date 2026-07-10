@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "nama_menu": "Sayur Bening Bayam Jagung",
+    "kategori": "Sayuran",
+    "kecocokan_klinis": ["hamil_t1", "hamil_t2", "hamil_t3", "menyusui"],
+    "manfaat_utama": "Tinggi Asam Folat (mencegah cacat tabung saraf) dan Serat",
+    "langkah_memasak": [
+      "1. Didihkan air, masukkan bawang merah dan temu kunci.",
+      "2. Masukkan jagung manis, masak hingga empuk.",
+      "3. Masukkan bayam, masak sebentar (jangan sampai terlalu layu agar folat tidak rusak).",
+      "4. Tambahkan garam dan gula secukupnya, sajikan hangat."
+    ],
+    "bahan": [
+      {
+        "nama_dkbm": "bayam segar",
+        "jumlah_gram": 100
+      },
+      {
+        "nama_dkbm": "jagung kuning muda rebus",
+        "jumlah_gram": 50
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nama_menu": "Tumis Kangkung Tempe",
+    "kategori": "Sayuran & Lauk Nabati",
+    "kecocokan_klinis": ["hamil_t2", "hamil_t3", "menyusui"],
+    "manfaat_utama": "Kaya Protein Nabati dan Zat Besi untuk mencegah anemia ibu hamil.",
+    "langkah_memasak": [
+      "1. Potong tempe dadu, goreng setengah matang.",
+      "2. Tumis bawang putih, bawang merah, dan sedikit cabai.",
+      "3. Masukkan kangkung segar, tumis cepat dengan api besar.",
+      "4. Masukkan tempe, tambahkan saus tiram dan sedikit air, angkat."
+    ],
+    "bahan": [
+      {
+        "nama_dkbm": "kangkung segar",
+        "jumlah_gram": 150
+      },
+      {
+        "nama_dkbm": "tempe kedelai murni mentah",
+        "jumlah_gram": 75
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nama_menu": "Sup Hati Ayam Kampung",
+    "kategori": "Lauk Hewani",
+    "kecocokan_klinis": ["hamil_t1", "hamil_t2", "hamil_t3"],
+    "manfaat_utama": "Superfood untuk ibu hamil! Sangat padat Zat Besi, Zinc, dan Asam Folat tinggi.",
+    "langkah_memasak": [
+      "1. Rebus hati ayam sebentar untuk membuang kotoran, tiriskan.",
+      "2. Tumis bumbu halus (bawang, jahe) hingga harum.",
+      "3. Masukkan air kaldu, tambahkan wortel dan kentang.",
+      "4. Masukkan hati ayam, masak hingga empuk. Taburi daun bawang."
+    ],
+    "bahan": [
+      {
+        "nama_dkbm": "ayam hati segar",
+        "jumlah_gram": 100
+      },
+      {
+        "nama_dkbm": "wortel segar",
+        "jumlah_gram": 50
+      },
+      {
+        "nama_dkbm": "kentang segar",
+        "jumlah_gram": 50
+      }
+    ]
+  }
+]

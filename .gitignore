@@ -1,0 +1,59 @@
+# .gitignore — TanamGizi
+
+# ========================
+# Python (Backend & AI)
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+*.env.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ========================
+# Flutter (Mobile)
+# ========================
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+mobile/.packages
+mobile/pubspec.lock
+mobile/*.iml
+mobile/android/.gradle/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+
+# ========================
+# Database & Data Sensitif
+# ========================
+*.sqlite
+*.db
+*.sqlite3
+
+# Data asli (besar, unduh manual)
+data/dkbm/tkpi_2020.csv
+
+# ========================
+# IDE & OS
+# ========================
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "source": "USDA Table of Nutrient Retention Factors, Release 6",
+    "description": "Faktor retensi nutrisi (persentase gizi yang tersisa setelah proses memasak). Nilai 1.0 berarti gizi bertahan 100%, nilai 0.5 berarti tersisa 50%. Digunakan untuk mengoreksi nilai gizi bahan mentah di DKBM saat disajikan dalam menu matang."
+  },
+  "methods": {
+    "mentah": {
+      "description": "Bahan makanan dikonsumsi segar tanpa melalui proses pemanasan atau pengolahan suhu.",
+      "default_factor": 1.0,
+      "specific_factors": {}
+    },
+    "merebus": {
+      "description": "Merebus dengan air banyak (boiling/draining). Menyebabkan kehilangan vitamin larut air dan mineral yang larut ke dalam air rebusan.",
+      "default_factor": 0.85,
+      "specific_factors": {
+        "vit_c_mg": 0.50,
+        "folat_mcg": 0.50,
+        "vit_b1_mg": 0.60,
+        "vit_b2_mg": 0.70,
+        "vit_b6_mg": 0.70,
+        "vit_b12_mcg": 0.80,
+        "vit_a_re": 0.85,
+        "protein_g": 0.95,
+        "besi_mg": 0.80,
+        "kalsium_mg": 0.80,
+        "seng_mg": 0.85,
+        "kalium_mg": 0.75
+      }
+    },
+    "mengukus": {
+      "description": "Mengukus dengan uap air (steaming). Lebih baik dalam mempertahankan gizi dibanding merebus langsung karena tidak ada kontak langsung dengan air.",
+      "default_factor": 0.90,
+      "specific_factors": {
+        "vit_c_mg": 0.80,
+        "folat_mcg": 0.80,
+        "vit_b1_mg": 0.85,
+        "vit_b2_mg": 0.90,
+        "vit_b6_mg": 0.85,
+        "vit_b12_mcg": 0.90,
+        "vit_a_re": 0.90,
+        "protein_g": 0.98,
+        "besi_mg": 0.95,
+        "kalsium_mg": 0.95,
+        "seng_mg": 0.95,
+        "kalium_mg": 0.90
+      }
+    },
+    "menggoreng": {
+      "description": "Menggoreng dalam minyak panas (deep frying / pan frying). Panas tinggi mengurangi vitamin sensitif panas, tetapi menjaga mineral agar tidak larut.",
+      "default_factor": 0.90,
+      "specific_factors": {
+        "vit_c_mg": 0.65,
+        "folat_mcg": 0.75,
+        "vit_b1_mg": 0.75,
+        "vit_b2_mg": 0.85,
+        "vit_b6_mg": 0.80,
+        "vit_b12_mcg": 0.85,
+        "vit_a_re": 0.80,
+        "protein_g": 0.90,
+        "besi_mg": 0.98,
+        "kalsium_mg": 0.98,
+        "seng_mg": 0.98,
+        "kalium_mg": 0.95
+      }
+    },
+    "menumis": {
+      "description": "Menumis dengan sedikit minyak dan waktu relatif singkat (sauteing / stir-frying). Meminimalkan kerusakan gizi larut air.",
+      "default_factor": 0.92,
+      "specific_factors": {
+        "vit_c_mg": 0.75,
+        "folat_mcg": 0.80,
+        "vit_b1_mg": 0.80,
+        "vit_b2_mg": 0.90,
+        "vit_b6_mg": 0.85,
+        "vit_b12_mcg": 0.90,
+        "vit_a_re": 0.85,
+        "protein_g": 0.95,
+        "besi_mg": 0.98,
+        "kalsium_mg": 0.98,
+        "seng_mg": 0.98,
+        "kalium_mg": 0.95
+      }
+    },
+    "memanggang": {
+      "description": "Memanggang dalam oven atau di atas api langsung (baking / grilling / roasting). Suhu kering sedang hingga tinggi dalam waktu lama.",
+      "default_factor": 0.88,
+      "specific_factors": {
+        "vit_c_mg": 0.60,
+        "folat_mcg": 0.70,
+        "vit_b1_mg": 0.70,
+        "vit_b2_mg": 0.80,
+        "vit_b6_mg": 0.75,
+        "vit_b12_mcg": 0.80,
+        "vit_a_re": 0.80,
+        "protein_g": 0.90,
+        "besi_mg": 0.95,
+        "kalsium_mg": 0.95,
+        "seng_mg": 0.95,
+        "kalium_mg": 0.90
+      }
+    }
+  }
+}

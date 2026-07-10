@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "source": "WHO/FAO Vitamin and Mineral Requirements in Human Nutrition / World Health Organization",
+    "description": "Faktor penyerapan (bioavailabilitas) zat gizi mikro yang kritis bagi ibu hamil & menyusui. Angka ini digunakan untuk menghitung seberapa banyak gizi yang sebenarnya dapat diserap oleh tubuh dari jenis bahan makanan tertentu."
+  },
+  "iron_absorption": {
+    "heme_iron": {
+      "sources": ["daging merah", "daging ayam", "hati ayam/sapi", "ikan", "seafood"],
+      "absorption_rate": 0.25,
+      "range": "15% - 35%",
+      "description": "Zat besi dari sumber hewani, penyerapannya sangat efisien dan tidak terpengaruh oleh zat penghambat (inhibitor) seperti fitat atau serat."
+    },
+    "non_heme_iron": {
+      "sources": ["bayam", "daun kelor", "tempe", "tahu", "kacang-kacangan", "serealia"],
+      "absorption_rate": 0.08,
+      "range": "2% - 20%",
+      "description": "Zat besi dari sumber nabati. Penyerapannya rendah dan sangat dipengaruhi oleh zat pemacu (enhancer) seperti Vitamin C, serta zat penghambat (inhibitor) seperti tanin (teh) dan fitat."
+    },
+    "dietary_patterns": {
+      "low_bioavailability": {
+        "absorption_rate": 0.05,
+        "description": "Pola makan didominasi nabati dengan sedikit daging/ikan, tinggi inhibitor (fitat/serat). Sangat umum di daerah pedesaan."
+      },
+      "medium_bioavailability": {
+        "absorption_rate": 0.10,
+        "description": "Pola makan campuran (hewani + nabati) dengan konsumsi rutin Vitamin C. Ini adalah standar asumsi AKG Indonesia."
+      },
+      "high_bioavailability": {
+        "absorption_rate": 0.15,
+        "description": "Pola makan kaya daging merah, unggas, ikan, serta kaya buah/sayur sumber Vitamin C."
+      }
+    }
+  },
+  "calcium_bioavailability": {
+    "dairy": {
+      "sources": ["susu sapi", "keju", "yoghurt"],
+      "absorption_rate": 0.32,
+      "description": "Kalsium dari produk susu diserap dengan efisiensi sedang-tinggi karena mengandung laktosa yang membantu penyerapan."
+    },
+    "low_oxalate_greens": {
+      "sources": ["brokoli", "sawi hijau", "kubis", "pakcoy"],
+      "absorption_rate": 0.50,
+      "description": "Sayuran rendah oksalat memiliki bioavailabilitas kalsium yang sangat tinggi (bahkan melebihi susu)."
+    },
+    "high_oxalate_greens": {
+      "sources": ["bayam", "daun singkong", "lobak merah"],
+      "absorption_rate": 0.05,
+      "description": "Sayuran tinggi oksalat mengikat kalsium sehingga hampir tidak bisa diserap oleh tubuh."
+    },
+    "legumes_nuts": {
+      "sources": ["tempe", "tahu", "almond", "kacang merah"],
+      "absorption_rate": 0.20,
+      "description": "Mengandung fitat tingkat sedang yang sedikit membatasi penyerapan kalsium."
+    }
+  },
+  "zinc_absorption": {
+    "high_bioavailability": {
+      "absorption_rate": 0.50,
+      "description": "Pola makan tinggi protein hewani (daging, telur, seafood) dengan rasio fitat-ke-seng rendah."
+    },
+    "moderate_bioavailability": {
+      "absorption_rate": 0.30,
+      "description": "Pola makan berbasis makanan campuran nabati-hewani. Tempe/tahu termasuk di sini karena fermentasi mengurangi kadar fitat."
+    },
+    "low_bioavailability": {
+      "absorption_rate": 0.15,
+      "description": "Pola makan tinggi serat dan fitat tak terfermentasi (serealia utuh tanpa proses perendaman, kacang mentah)."
+    }
+  },
+  "vitamin_a_conversion": {
+    "retinol_active": {
+      "sources": ["hati", "kuning telur", "minyak ikan"],
+      "conversion_ratio_to_rae": 1.0,
+      "description": "1 mcg Retinol = 1 mcg RAE (Retinol Activity Equivalent)"
+    },
+    "beta_carotene_supplement": {
+      "sources": ["suplemen beta-karoten"],
+      "conversion_ratio_to_rae": 0.5,
+      "description": "2 mcg Beta-Karoten suplemen = 1 mcg RAE"
+    },
+    "beta_carotene_dietary": {
+      "sources": ["wortel", "ubi jalar oranye", "labu kuning", "bayam"],
+      "conversion_ratio_to_rae": 0.0833,
+      "description": "12 mcg Beta-Karoten dari makanan = 1 mcg RAE"
+    },
+    "other_provitamin_a": {
+      "sources": ["pepaya", "mangga", "tomat"],
+      "conversion_ratio_to_rae": 0.0416,
+      "description": "24 mcg Provitamin A karotenoid lainnya (alfa-karoten, beta-kriptoksantin) = 1 mcg RAE"
+    }
+  }
+}
